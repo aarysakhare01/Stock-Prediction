@@ -5,8 +5,7 @@ This project demonstrates a simple implementation of stock price prediction usin
 bash
 Copy
 Edit
-demo.py             # Main Python script for preprocessing, training, and evaluating the model
-README.md           # Project documentation
+
 🚀 Features
 Reads and processes historical stock data from a CSV file
 
@@ -22,17 +21,16 @@ Visualizes predictions vs. actual prices
 
 📦 Requirements
 Make sure to install the following Python packages:
-
 bash
 Copy
 Edit
 pip install numpy pandas matplotlib scikit-learn
+
 🧠 How It Works
 Data Loading:
 Loads a stock dataset from a CSV file.
 
 Preprocessing:
-
 Converts the Date column to datetime format
 
 Sets Date as index
@@ -40,7 +38,6 @@ Sets Date as index
 Selects Close and Volume columns
 
 Calculates:
-
 Moving_Avg_10 (10-day rolling average)
 
 Moving_Avg_50 (50-day rolling average)
@@ -48,7 +45,6 @@ Moving_Avg_50 (50-day rolling average)
 Lagged_Close (previous day’s closing price)
 
 Modeling:
-
 Features: Volume, Moving_Avg_10, Moving_Avg_50, Lagged_Close
 
 Target: Close
@@ -58,7 +54,6 @@ Splits the data into train and test sets
 Trains a LinearRegression model
 
 Evaluation:
-
 Calculates Mean Absolute Error (MAE)
 
 Calculates Root Mean Squared Error (RMSE)
