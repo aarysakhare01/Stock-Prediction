@@ -1,7 +1,7 @@
 # Stock-Prediction With Linear Regression
 This project demonstrates a simple implementation of stock price prediction using Linear Regression in Python. It utilizes historical stock data to engineer features like moving averages and lagged closing prices, and evaluates a regression model to predict future closing prices.
 
-📁 Project Structure
+📁 Project Structure :
 bash
 Copy
 Edit
